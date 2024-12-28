@@ -18,3 +18,7 @@ body {
 .header_color div, .phone-info a, .header_color .social_bookmarks a{
     color: white !important;
 }
+
+.pagefooter .widgettitle, .main_color a, .main_color span{
+    color: #fff !important;
+}
