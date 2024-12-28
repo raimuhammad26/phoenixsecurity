@@ -5,6 +5,11 @@ body {
     font-family: "Roboto", serif !important;
 }
 
+.container.av-logo-container {
+    /* height: 90px !important; */
+    display: flex;
+}
+
 .socket_color {
     background-color: #EC5800 !important;
     border-color: #eee;
