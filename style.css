@@ -32,3 +32,7 @@ body {
     background-color: #EC5800 !important;
     border-color: #EC5800 !important;
 }
+
+.pagefooter li {
+    border-color: #fff;
+}
