@@ -56,3 +56,7 @@ avia_textblock av_inherit_color>h2 {
 .html_header_top .header_color .main_menu ul:first-child >li > ul, .html_header_top #top .header_color .avia_mega_div > .sub-menu {
     border-top-color: #EC5800 !important;
 }
+
+.main_color .image-overlay .image-overlay-inside:before{
+    background-color: #EC5800 !important;
+}
