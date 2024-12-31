@@ -49,6 +49,14 @@ avia_textblock av_inherit_color>h2 {
     color: black !important;
 }
 
+#top .avia-testimonial-wrapper.av-3u1lke9-78d357828c57d0fd37f6b80dd60c275b .avia-testimonial-name{
+    color: black !important;
+}
+
+.avia-testimonial-wrapper.av-3u1lke9-78d357828c57d0fd37f6b80dd60c275b .avia-testimonial-subtitle{
+    color: black !important;
+}
+
 .header_color .avia-menu-fx {
     background-color: #EC5800;
 }
