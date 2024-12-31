@@ -79,6 +79,10 @@ avia_textblock av_inherit_color>h2 {
     font-size: 13px;
 }
 
+.container.av-logo-container {
+    /* justify-content: center !important; */
+}
+
 /* Phoenix Custom Card Section Start */
 
 .phoenix-cards-section{
