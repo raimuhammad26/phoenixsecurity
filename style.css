@@ -69,6 +69,11 @@ avia_textblock av_inherit_color>h2 {
     background-color: #EC5800 !important;
 }
 
+#top #wrap_all .av-social-link-linkedin:hover a, #top #wrap_all .av-social-link-linkedin a:focus {
+    color: #fff;
+    background-color: black !important;
+}
+
 /* Phoenix Custom Card Section Start */
 
 .phoenix-cards-section{
