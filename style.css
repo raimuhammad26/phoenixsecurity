@@ -61,7 +61,9 @@ avia_textblock av_inherit_color>h2 {
     background-color: #EC5800 !important;
 }
 
-#phoenix-cards{
+/* Phoenix Custom Card Section Start */
+
+.phoenix-cards-section{
     background-color: aqua;
     margin-top: 40px;
 }
@@ -75,8 +77,16 @@ avia_textblock av_inherit_color>h2 {
     width: 568px;
 }
 
+.phoenix-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: purple;
+}
+
 @media (max-width: 768px) {
     .card-row {
         flex-direction: column;
     }
 }
+
+/* Phoenix Custom Card Section End */
