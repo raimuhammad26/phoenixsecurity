@@ -60,3 +60,23 @@ avia_textblock av_inherit_color>h2 {
 .main_color .image-overlay .image-overlay-inside:before{
     background-color: #EC5800 !important;
 }
+
+#phoenix-cards{
+    background-color: aqua;
+    margin-top: 40px;
+}
+
+.card-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.phoenix-card img{
+    width: 568px;
+}
+
+@media (max-width: 768px) {
+    .card-row {
+        flex-direction: column;
+    }
+}
