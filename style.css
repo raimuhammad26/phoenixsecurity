@@ -49,11 +49,11 @@ avia_textblock av_inherit_color>h2 {
     color: black !important;
 }
 
-#top .avia-testimonial-wrapper.av-3u1lke9-78d357828c57d0fd37f6b80dd60c275b .avia-testimonial-name{
+#top .avia-testimonial-wrapper.av-3u1lke9-78d357828c57d0fd37f6b80dd60c275b .avia-testimonial-name {
     color: black !important;
 }
 
-.avia-testimonial-wrapper.av-3u1lke9-78d357828c57d0fd37f6b80dd60c275b .avia-testimonial-subtitle{
+.avia-testimonial-wrapper.av-3u1lke9-78d357828c57d0fd37f6b80dd60c275b .avia-testimonial-subtitle {
     color: black !important;
 }
 
@@ -61,20 +61,24 @@ avia_textblock av_inherit_color>h2 {
     background-color: #EC5800;
 }
 
-.html_header_top .header_color .main_menu ul:first-child >li > ul, .html_header_top #top .header_color .avia_mega_div > .sub-menu {
+.html_header_top .header_color .main_menu ul:first-child>li>ul,
+.html_header_top #top .header_color .avia_mega_div>.sub-menu {
     border-top-color: #EC5800 !important;
 }
 
-.main_color .image-overlay .image-overlay-inside:before{
+.main_color .image-overlay .image-overlay-inside:before {
     background-color: #EC5800 !important;
 }
 
-#top #wrap_all .av-social-link-linkedin:hover a, #top #wrap_all .av-social-link-linkedin a:focus {
+#top #wrap_all .av-social-link-linkedin:hover a,
+#top #wrap_all .av-social-link-linkedin a:focus {
     color: #fff;
     background-color: black !important;
 }
 
-.header_color div, .phone-info a, .header_color .social_bookmarks a {
+.header_color div,
+.phone-info a,
+.header_color .social_bookmarks a {
     color: white !important;
     font-size: 13px;
 }
@@ -85,21 +89,21 @@ avia_textblock av_inherit_color>h2 {
 
 /* Phoenix Custom Card Section Start */
 
-.phoenix-cards-section{
+.phoenix-cards-section {
     background-color: aqua;
     margin-top: 40px;
 }
 
-.card-row{
+.card-row {
     display: flex;
     justify-content: space-between;
 }
 
-.phoenix-card img{
+.phoenix-card img {
     width: 568px;
 }
 
-.phoenix-container{
+.phoenix-container {
     max-width: 1200px;
     margin: 0 auto;
     background-color: purple;
@@ -112,3 +116,59 @@ avia_textblock av_inherit_color>h2 {
 }
 
 /* Phoenix Custom Card Section End */
+
+/* New Our Services Start */
+.new-our-services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.new-our-services h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.new-our-services .intro {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.card p {
+    margin: 0 1rem 1.5rem;
+    font-size: 0.95rem;
+    color: #666;
+}
+
+/* New Our Services End */
