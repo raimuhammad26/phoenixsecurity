@@ -172,3 +172,72 @@ avia_textblock av_inherit_color>h2 {
 }
 
 /* New Our Services End */
+
+/* New Testimonial Section Start */
+.phoenix-new-testimonials {
+    background-color: #eee;
+    text-align: center;
+    padding: 30px;
+}
+
+.phoenix-new-testimonials h2 {
+    padding-bottom: 40px;
+}
+
+.phoenix-new-testimonials img {
+    height: 100px;
+}
+
+.slider-container {
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+
+}
+
+.testimonial-slide {
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.testimonial-slide.active {
+    display: block;
+}
+
+.arrow {
+    font-size: 30px;
+    background: none;
+    color: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background 0.3s;
+}
+
+.testimonial-slide p {
+    font-size: 28px;
+    font-style: italic;
+    line-height: 42px;
+}
+
+.testimonial-slide .name {
+    font-size: 19.2px;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .phoenix-new-testimonials p {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .testimonial-slide {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/* New Testimonial Section End */
