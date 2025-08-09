@@ -154,6 +154,23 @@ a{
     font-size: 38px;
 }
 
+@media (max-width: 768px) {
+    #phoenix-hero-section {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .hero-image,
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-text {
+        font-size: 1.5rem;
+    }
+}
+
 
 /* Hero End */
 
