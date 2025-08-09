@@ -1,7 +1,190 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Global Phoenix Styles*/
+.phoenix-section-heading {
+    text-align: center;
+    font-size: 54px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 100px;
+}
+
+/* Orange Line */
+#orange-line {
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 13px;
+    color: white;
+    font-weight: 700;
+}
+
+.orange-line-container {
+    height: 30px;
+    padding-left: 155px;
+    padding-right: 155px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    /* space between icons */
+}
+
+.social-icons a {
+    color: white;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: black;
+}
+
+/* Orange Line Ends */
+
+/* Navbar Start*/
+#phoenix-nav {
+    /* background-color: lightblue; */
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+    z-index: 50;
+}
+
+.navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    height: 70px;
+
+}
+
+.logo img {
+    height: 65px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    /* Change to your preferred hover color */
+}
+
+.request-quote button {
+    padding: 10px 24px;
+    background-color: #EC5800;
+    /* Change to your preferred button color */
+    color: white;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+
+.request-quote button:hover {
+    background-color: #0085B2;
+    /* Change to your preferred hover color */
+
+}
+
+.menu-icon {
+    display: none;
+}
+
+/* Navbar End*/
+
+/* Hero Start */
+#phoenix-hero-section {
+    height: 700px;
+    background-color: #102E44;
+    background-image: url('assets/hero2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+
+    padding-top: 160px;
+}
+
+
+
+.hero-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-left img {
+    width: 250px;
+}
+
+.hero-right {
+    width: 650px;
+    padding-left: 80px;
+}
+
+#phoenix-hero-section h1 {
+    font-size: 64px;
+    line-height: 1;
+    transform: translateY(-150px);
+    /* Push upward */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    color: white;
+
+}
+
+.hero-right h4 {
+    font-size: 20px;
+    line-height: 1;
+    padding-top: 30px;
+}
+
+/* Hero End */
+
 body {
-    background-color: aquamarine;
+    background-color: white;
+    /* background-color: aquamarine; */
     font-family: "Roboto", serif !important;
 }
 
@@ -92,6 +275,7 @@ avia_textblock av_inherit_color>h2 {
 .phoenix-cards-section {
     background-color: aqua;
     margin-top: 40px;
+    padding-top: 100px;
 }
 
 .card-row {
@@ -122,6 +306,7 @@ avia_textblock av_inherit_color>h2 {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
+    padding-top:100px;
     text-align: center;
 }
 
@@ -175,9 +360,11 @@ avia_textblock av_inherit_color>h2 {
 
 /* New Testimonial Section Start */
 .phoenix-new-testimonials {
-    background-color: #eee;
+    background-color: white;
     text-align: center;
     padding: 30px;
+    padding-bottom: 100px;
+    padding-top:100px;
 }
 
 .phoenix-new-testimonials h2 {
@@ -218,12 +405,14 @@ avia_textblock av_inherit_color>h2 {
 }
 
 .testimonial-slide p {
-    font-size: 28px;
+    padding-top:50px;
+    font-size: 20px;
     font-style: italic;
-    line-height: 42px;
+    line-height: 30px;
 }
 
 .testimonial-slide .name {
+    padding-top: 50px;
     font-size: 19.2px;
     font-weight: 700;
 }
@@ -241,3 +430,70 @@ avia_textblock av_inherit_color>h2 {
 }
 
 /* New Testimonial Section End */
+
+/* Footer Style */
+footer {
+    height: 600px;
+    background-color: #fff;
+    /* border-top-left-radius: 72px;
+  border-top-right-radius: 72px; */
+}
+
+footer {
+    padding: 48px 0;
+    padding-top:100px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 160px;
+    margin: 10px 20px;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.intro-text {
+    font-size: 14px;
+    color: #333;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    color: #EC5800;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    padding-top: 12px;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+    padding-top: 4px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Style End */
