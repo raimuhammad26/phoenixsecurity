@@ -7,6 +7,11 @@
 
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 /* Global Phoenix Styles*/
 .phoenix-section-heading {
     text-align: center;
