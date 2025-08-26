@@ -15,10 +15,15 @@
     <!-- New Phoenix Header Start -->
     <section id="phoenix-nav">
 
-        <div id="orange-line" style="height: 30px;background-color: #EC5800;">
+        <div id="orange-line">
             <div class="orange-line-container">
                 <div class="orange-line-left">
-                    Phoenix Security | Your Safety, Our Mission | +44 7918 779935, +44 7918 779934
+                    <div class="orange-line-text">
+                        Phoenix Security | Your Safety, Our Mission <span class="orange-line-span">|&nbsp;</span>
+                    </div>
+                    <div class="orange-line-phone-number">
+                         +44 7918 779935, +44 7918 779934
+                    </div>
                 </div>
                 <div class="orange-line-right">
                     <div class="social-icons">
@@ -62,7 +67,7 @@
         <img class="hero-image" src="assets/hero2.jpg" alt="">
 
         <div class="hero-text">
-            <h1>Welcome to <span style="color: #EC5800;">Phoenix Security</span> Where Your Safety is Our Mission</h1>
+            <h1 class="hero-text-heading">Welcome to <span style="color: #EC5800;">Phoenix Security</span> Where Your Safety is Our Mission</h1>
         </div>
     </section>
     <!-- Phoenix Hero End -->
@@ -260,6 +265,13 @@
             currentIndex = (currentIndex + direction + testimonials.length) % testimonials.length;
             testimonials[currentIndex].classList.add("active");
         }
+
+        const menuIcon = document.getElementById("menu-icon");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuIcon.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
     </script>
 </body>
 
